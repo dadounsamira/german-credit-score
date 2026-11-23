@@ -64,8 +64,7 @@ Kept features that are strong alone **and** significant together in a logistic r
 
 **Account balance, payment status, loan duration, savings, purpose.**
 
-Compared with my original 2024 analysis (Pearson correlation + stepwise selection), 4 of 5 features are the same. Credit amount is replaced by **purpose**, which Pearson correlation on category codes could not detect.
-
+Purpose is treated as a categorical variable (chi-square, Cramér's V, Information Value), never with Pearson correlation on its category codes, which could not detect its effect.
 ## Repository structure
 
 ```
